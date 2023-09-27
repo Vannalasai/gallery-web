@@ -1,0 +1,833 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* Header Section */
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.5rem;
+}
+
+header img{
+    height: 25px;
+}
+
+header h1{
+    font-size: 1.1rem;
+    font-family: 'Allerta Stencil';
+    text-transform: uppercase;
+    color: #03948F;
+    margin-left: 0.4rem;
+}
+
+/* One Section */
+
+.one{
+    padding: 1.5rem;
+}
+
+.one .left h1{
+    color: #03948F;
+    margin: 2vh 0;
+    margin-top: -7%;
+} 
+
+.one .left p{
+    font-size: 1rem;
+    margin: 2vh 0;
+}
+
+.one .left h3{
+    color: #03948F;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.one .left h3:hover{
+    color: tomato;
+}
+
+.one .left .times{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0 2rem;
+    margin: 5vh 0;
+}
+
+.one .left .times .time{
+    /* background-color: #FBF2EB; */
+    border: 1px solid #FBF2EB;
+    border-radius: 10%;
+    /* text-align: center; */
+    /* font-size: 30px;
+    height: 50px; */
+    
+}
+
+.one .left .time ul{
+    text-align: center;
+    background: #FBF2EB;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.one .left .time ul li{
+    list-style: none;
+    color: #03948F;
+    font-weight: bold;
+    
+}
+
+.one .right {
+    margin-top: 30%;
+    position: relative;
+}
+
+.one .right .foreground{
+    width: 250px;
+    transform: rotate(15deg);
+    aspect-ratio: 1/1;
+    margin-left: 2.5rem;
+}
+
+.one .right .foreground img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 7px solid white;
+    border-radius: 20%;
+    margin-bottom: 5%;
+}
+
+.one .right .background img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.one .right .background{
+    bottom: -15%;
+    z-index: -1;
+    position: absolute;
+    left: -7%;
+    right: -7.5%;
+}
+
+/* Two Section */
+
+.two h1{
+    color: #03948F;
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    margin-top: 5%;
+}
+
+.two p{
+    margin: 2vh 0;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+}
+
+.two .versions .version img{
+    width: 100%;
+    height: auto;
+}
+
+.two .versions{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 1.5rem;
+}
+
+.two .versions .version{
+    background: #FBF2EB;
+    border: 1px solid #FBF2EB;
+    border-radius: 10%;
+}
+
+.two .versions .version ul{
+    list-style: none;
+    text-align: center;
+}
+
+.two .background {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+/* Three Section */
+
+.three{
+    padding: 1.5rem;
+    background: #1EAE98;
+}
+
+.three h1{
+    text-align: center;
+    color: white;
+}
+
+.three .profile{
+    background: #e8f2f1;
+    margin-top: 8%;
+    border: 1px solid #e8f2f1;
+    border-radius: 10%;
+}
+
+.three .profiles .profile .heading img{
+    /* width: 100%; */
+    height: auto;
+}
+
+.three .profile .heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.heading ul{
+    list-style: none;
+}
+
+.sai{
+    width: 35px;
+    clip-path: circle();
+    
+}
+
+.verify{
+    width: 25px;
+}
+
+.three .profiles .profile .photos .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid yellow;
+    border-radius: 15%;
+}
+
+.three .photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 1rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 40%;
+}
+
+.three .photo{
+    aspect-ratio: 1/1;
+    width: 150px;
+}
+
+.three p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 8%;
+}
+
+/* Four Section */
+
+.four h1{
+    color: #03948F;
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    margin-top: 5%;
+}
+
+.four p{
+    margin: 2vh 0;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+}
+
+.four .versions .version img{
+    width: 100%;
+    height: auto;
+}
+
+.four .versions{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 1.5rem;
+}
+
+.four .versions .version{
+    background: #FBF2EB;
+    border: 1px solid #FBF2EB;
+    border-radius: 10%;
+}
+
+.four .versions .version ul{
+    list-style: none;
+    text-align: center;
+}
+
+.four .background {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+/* Five Section */
+
+.five{
+    padding: 1.5rem;
+    background: #1EAE98;
+}
+
+.five h1{
+    color: white;
+    text-align: center;
+}
+
+.five .pictures{
+    margin-left: 3.2rem;
+    margin-top: 8%;
+}
+
+.five .pictures .picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid yellow;
+    border-radius: 15%;
+}
+
+.five .pictures .picture{
+    width: 250px;
+    aspect-ratio: 1 / 1;
+    background: #f8f4eb;
+    border: 1px solid #e6c092;
+    border-radius: 5%;
+    padding: 0.8rem;
+    margin-top: 8%;
+}
+
+.five .pictures .picture .contain{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.five .pictures .picture .contain h4{
+    font-weight: lighter;
+}
+
+.five .pictures .picture .price h5{
+    color: #1EAE98;
+    font-size: 1rem;
+}
+
+.five .pictures .picture .contain img{
+    border: none;
+    width: 20px;
+}
+
+.five .pictures .picture .price{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.button{
+    border: none;
+    background: #1EAE98;
+    border-radius: 30px;
+    color: white;
+    padding: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover{
+    transform: scale(0.8);
+}
+
+/* Six Section */
+
+.six{
+    padding: 1.5rem;
+    background: white;
+    background-image: url(./images/mobile\ six.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    background: transparent;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.six .para{
+    padding: 0 1rem;
+}
+
+.six h2{
+    font-size: 1.1rem;
+    color: tomato;
+}
+
+.six p{
+    font-size: 0.8rem;
+    margin-top: 2vh;
+    line-height: 25px;
+}
+
+.six img{
+    height: 100%;
+    width: 100%;
+}
+
+.six .stock{
+    width: 200px;
+}
+
+/* Footer Section */
+
+footer {
+    padding: 2rem;
+}
+
+footer img{
+    height: 35px;
+}
+
+footer h2{
+    font-size: 1.5rem;
+    font-family: 'Allerta Stencil';
+    text-transform: uppercase;
+    color: #03948F;
+    margin-left: 0.4rem;
+}
+
+.bottom{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .detail p{
+    margin-top: 2vh;
+    font-size: 0.9rem;
+}
+
+footer .detail ul{
+    display: flex;
+    list-style: none;
+    margin-top: 3vh;
+}
+footer .detail ul li{
+    padding: 0 0.5rem;
+}
+
+.infor h4{
+    font-size: 1.5rem;
+    margin-top: 2vh;
+    color: #03948F;
+}
+
+.infor ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2vh;
+    width: 75%;
+}
+
+.infor ul li{
+    list-style: none;
+    margin-top: 1vh;
+    
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+}
+
+.last h4{
+    font-size: 1.5rem;
+    margin-top: 2vh;
+    color: #03948F;
+}
+
+.last p{
+    font-size: 0.9rem;
+    margin-top: 2vh;
+}
+
+.last .text{
+    margin-top: 3vh;
+    border: none;
+    background: #f8f4eb;
+    width: 80%;
+    border-radius: 5%;
+}
+
+.last .button{
+    width: 25%;
+    margin-top: 3vh;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.last .button:hover{
+    transform: scale(0.8);
+}
+
+@media screen and (min-width: 700px) {
+    header img{
+        height: 35px;
+    }
+
+    header h1{
+        font-size: 1.6rem;
+    }
+
+    .one .left h1{
+        font-size: 2.5rem;
+        margin: 1vh 0;
+    }
+
+    .one .left p{
+        font-size: 1.3rem;
+    }
+
+    .one .left h3{
+        font-size: 1.4rem;
+    }
+
+    .one .left .times{
+        width: 55%;
+    }
+
+    .one .right{
+        margin-top: 20%;
+    }
+
+    .one .right .foreground{
+        width: 370px;
+        margin: auto;
+        padding-bottom: 10%;
+    }
+
+    .two h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .two p{
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    .two .versions{
+        margin-top: 5vh;
+    }
+
+    .three h1{
+        font-size: 2rem;
+    }
+
+    .three .profiles{
+        padding: 0 6rem;
+    }
+
+    /* .three .profiles .profile{
+        padding: -2rem;
+    } */
+
+    .three .photos{
+        padding: 0 4rem;
+    }
+
+    .four h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .four p{
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    .four .versions{
+        margin-top: 5vh;
+    }
+
+    .five h1{
+        font-size: 2rem;
+        margin-top: 5%;
+    }
+
+    .five .pictures{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem 0;
+        margin-top: -1%;
+    }
+
+    .six .main{
+        margin-top: 15%;
+    }
+
+    .six .main .para{
+        padding: 0 5.5rem;
+    }
+
+    footer .detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .boxes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    
+    header{
+        padding-top: 3rem;
+    }
+
+    header h1{
+        font-size: 1.8rem;
+    }
+
+    header, .one{
+        background: white;
+        background-image: url(./images/laptop-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .one{
+        height: 85vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .one .left p{
+        margin: 5vh 0;
+    }
+
+    .one .left .times{
+        margin-top: 25%;
+    }
+
+    .one .left .time ul{
+        text-align: center;
+        background: #FBF2EB;
+        font-size: 1.8rem;
+    }
+
+    .one .right {
+        margin: auto;
+        margin-bottom: 20%;
+    }
+
+    .one .right .foreground{
+        width: 430px;
+        margin-right: 9rem;
+        margin-top: 10%;
+    }
+
+    .two{
+        height: 100vh;
+    }
+
+    .two h1{
+        font-size: 2rem;
+        margin-top: 5%;
+    }
+
+    .two p{
+        font-size: 1.3rem;
+        margin-top: 1%;
+    }
+
+    .two .versions{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
+        padding: 0 20rem;
+    }
+
+    .two .versions .version{
+        background-color: #FBF2EB;
+        height: 11rem;
+    }
+
+    .two .background{
+        margin-top: -15%;
+        height: 80%;
+        
+    }
+
+    .three {
+        height: 100vh;
+        background: white;
+        background-image: url(./images/section-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .three h1{
+        font-size: 2.3rem;
+        margin-top: 2%;
+    }
+
+    .three .profiles{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0;
+        gap: 2rem;
+    }
+    .three .profile{
+        padding: 0;
+    }
+
+    .three .photos{
+        padding: auto;
+    }
+
+    .three p{
+        margin-top: 2%;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .four{
+        height: 100vh;
+    }
+
+    .four h1{
+        font-size: 2rem;
+        margin-top: 5%;
+    }
+
+    .four p{
+        font-size: 1.3rem;
+        margin-top: 1%;
+    }
+
+    .four .versions{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
+        padding: 0 20rem;
+    }
+
+    .four .versions .version{
+        background-color: #FBF2EB;
+        height: 11rem;
+    }
+
+    .four .background{
+        margin-top: -15%;
+        height: 80%;  
+    }
+
+    .five {
+        height: 100vh;
+        background: white;
+        background-image: url(./images/Untitled\ design.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .five h1{
+        font-size: 2.5rem;
+        color: #1EAE98;
+    }
+
+    .five .pictures{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 5%;
+    }
+
+    .six{
+        height: 100vh;
+        background: white;
+        background-image: url(./images/six\ sec.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .six .main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        position: relative;
+    }
+
+    .main:before{
+        position: absolute;
+        background: black;
+        border: 1px solid #f8f4eb;
+        border-radius: 10%;
+    }
+
+    .six h2{
+        font-size: 2rem;
+    }
+
+    .six p{
+        font-size: 0.9rem;
+    }
+
+    .six .stock{
+        width: 300px;
+    }
+
+    footer .details{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer .details .detail{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer .infor ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
